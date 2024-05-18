@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    background: linear-gradient(rgba(67, 2, 114, 0.5), rgba(205, 16, 177, 0.5)), url("C:\Users\Kshama\OneDrive\Desktop\southern-living-Basic_Vanilla_Cake.jpg");
+    font-family: cursive, sans-serif;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #000000; /* Black navigation panel */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #000000;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+.image-container {
+    position: cover;
+    text-align: center;
+}
+.image-container::after {
+
+    font-size: larger;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    /* Other text styles */
+}
+.centered {
+    position: center;
+    display: flex;
+    justify-content: center;
+
+
+    color: gold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+}
